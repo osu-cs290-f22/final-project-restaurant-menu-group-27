@@ -1,0 +1,90 @@
+var menuData = require("../menuData.json")
+
+
+/*      BUTTON VARIABLES AND EVENT LISTENERS        */
+var cartButton = document.getElementById("customer-cart-button")
+var buyButton = document.getElementById("modal-buy-button")
+var exitButton = document.getElementById("modal-exit-button")
+var breakfastButton = document.getElementById("breakfast-menu-button")
+var lunchButton = document.getElementById("lunch-menu-button")
+var dinnerButton = document.getElementById("dinner-menu-button")
+var specialButton = document.getElementById("specials-menu-button")
+
+//display modal to user
+function customerCartButtonHandler(event) {
+    console.log("== Customer Cart Button was clicked")
+
+    document.getElementById("modal-backdrop").style.display = "block"
+    document.getElementById("customer-cart-modal").style.display = "block"
+
+    event.stopPropagation()
+}
+
+//exit modal, clear items in cart
+function buyButtonHandler(event) {
+    console.log("The buy button within the modal was clicked")
+
+    document.getElementById("modal-backdrop").style.display = "none"
+	document.getElementById("customer-cart-modal").style.display = "none"
+
+    //clear posts
+
+    alert("Please remember to pay upon delivery!")
+
+    event.stopPropagation()
+}
+
+//exit modal, keep items in cart
+function exitButtonHandler(event) {
+    console.log("The cancel button within the modal was clicked")
+
+    document.getElementById("modal-backdrop").style.display = "none"
+	document.getElementById("customer-cart-modal").style.display = "none"
+
+    event.stopPropagation()
+}
+
+//shows breakfast items
+function breakfastButtonHandler(event) {
+    console.log("The breakfast button was clicked")
+
+    //show breakfast items
+
+    event.stopPropagation()
+}
+
+//shows lunch items
+function lunchButtonHandler(event) {
+    console.log("The lunch button was clicked")
+
+    //show lunch items
+
+    event.stopPropagation()
+}
+
+//shows dinner items
+function dinnerButtonHandler(event) {
+    console.log("The dinner button was clicked")
+
+    //show dinner items
+
+    event.stopPropagation()
+}
+
+//show special items
+function specialButtonHandler(event) {
+    console.log("The specials button was clicked")
+
+    //show special items
+
+    event.stopPropagation()
+}
+
+cartButton.addEventListener("click", customerCartButtonHandler)
+buyButton.addEventListener("click", buyButtonHandler)
+exitButton.addEventListener("click", exitButtonHandler)
+breakfastButton.addEventListener("click", breakfastButtonHandler)
+lunchButton.addEventListener("click", lunchButtonHandler)
+dinnerButton.addEventListener("click", dinnerButtonHandler)
+specialButton.addEventListener("click", specialButtonHandler)
+/****************************************************************/
