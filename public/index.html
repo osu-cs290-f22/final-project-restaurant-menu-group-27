@@ -11,6 +11,7 @@
 
         <link rel="stylesheet" href="style.css">
         <script src="index.js" charset="utf-8" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     </head>
     <body>
         <header>
@@ -29,5 +30,29 @@
             <button id="dinner-menu-button" class="menu-button">Dinner</button>
             <button id="specials-menu-button" class="menu-button">Specials</button>
         </div>
+
+        <div class="customer-cart">
+            <button id="customer-cart-button" class="cart-button">Cart</button>
+        </div>
+        <div id="modal-backdrop" class="hidden"></div>
+        <div id="customer-cart-modal" class="hidden">
+            <div class="modal-dialog">
+
+                <div class="modal-header">
+                    <h3>Your Cart</h3>
+                </div>
+
+                <div class="modal-body">
+
+                    <!-- Will create handlebar file for listed menu items in cart -->
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button id="modal-buy-button" class="modal-button">Buy Items</button>
+                <button id="modal-exit-button" class="modal-button">Exit Cart</button>
+            </div>
+        </div>
+        
     </body>
 </html>
