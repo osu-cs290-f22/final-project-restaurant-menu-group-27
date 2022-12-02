@@ -6,16 +6,27 @@
     background-color: white;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .site-title{
     position: relative;
+    text-align: center;
     font-family: 'Lato', sans-serif;
     bottom: 150px;
-    left: 150px;
     font-size: 100px;
     font-weight: 100;
     margin: 0 0 0 20px;
-    padding-top: 30px;
   }
+
+.menu-option-contents{
+    margin-top: 10px;    
+    background-color: orange;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+}
 
 .menu-button {
     padding: 16px 42px;
