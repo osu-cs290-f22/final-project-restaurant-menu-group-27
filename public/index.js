@@ -1,4 +1,4 @@
-var menuData = require("../menuData.json")
+//var menuData = require("../menuData.json")
 
 
 /*      BUTTON VARIABLES AND EVENT LISTENERS        */
