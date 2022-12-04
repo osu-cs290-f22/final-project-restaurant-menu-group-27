@@ -1,5 +1,17 @@
 <div class="menu-items">
-    {{#each post}}
-        {{> menuItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
+    {{#each breakfast}}
+        {{> breakfastItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
+    {{/each}}
+
+    {{#each lunch}}
+        {{> lunchItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
+    {{/each}}
+
+    {{#each dinner}}
+        {{> dinnerItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
+    {{/each}}
+
+    {{#each specials}}
+        {{> specialItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
     {{/each}}
 </div>
