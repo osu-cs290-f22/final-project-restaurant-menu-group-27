@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Restaurant Menu</title>
+
+        <!--font for site title-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap" rel="stylesheet">
+
+        <!--font for rest of menu-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <!--font for stuff at top of the page-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="./style.css">
+        <script src="./index.js" charset="utf-8" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-image-container">
+                <img src="./benny.jpg" width="150px" height="150px" alt="Benny logo">
+            </div>
+
+            <h1 class="site-title">Benny's Restaurant</h1>
+            <p class="delivery">Order here or delivery:(458)-420-6969</p>
+            <p class="socials">Check out our socials!<br>Ig:@BennytheBeaver</p>
+        </header>
+
+        <div class="menu-option-contents">
+            <h3>Menu Options</h3>
+            <p class="menu-time">Breakfast:8am-12pm<br>Lunch:12pm-6pm<br>Dinner:6pm-11pm<br>Specials:12pm-11pm</p>
+            <button id="breakfast-menu-button" class="menu-button">Breakfast</button>
+            <button id="lunch-menu-button" class="menu-button">Lunch</button>
+            <button id="dinner-menu-button" class="menu-button">Dinner</button>
+            <button id="specials-menu-button" class="menu-button">Specials</button>
+        </div>
+
+        {{{body}}}
+        <!-- 
+        <div class="breakfast-menu">
+            <h2>Breakfast Menu</h2>
+            <section class="menu-items">
+                <div class="item-background">
+                 <img class="food-image" src="https://www.allrecipes.com/thmb/WqWggh6NwG-r8PoeA3OfW908FUY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21014-Good-old-Fashioned-Pancakes-mfs_001-1fa26bcdedc345f182537d95b6cf92d8.jpg">
+                 <div class="food-info-background">
+                     <p class="name">Benny's Best Pancakes</p>
+                      <p class="price">Price: 12.99$</p>
+                     <p class="ingredients">Ingredients: Benny's Pancake Mix,Butter,Maple Syrup,Egg,Milk</p>
+                   </div>
+               </div>
+
+               <div class="item-background">
+                 <img class="food-image" src="https://sugarspunrun.com/wp-content/uploads/2022/09/Easy-sausage-gravy-recipe-1-of-1-5.jpg">
+                  <div class="food-info-background">
+                      <p class="name">Biscuits & Gravy</p>
+                     <p class="price">Price: 16.99$</p>
+                     <p class="ingredients">Ingredients: Biscuit,Benny's Country Gravy,Salt & Pepper</p>
+                  </div>
+              </div>
+
+              <div class="item-background">
+                <img class="food-image" src="https://sugarspunrun.com/wp-content/uploads/2022/09/Easy-sausage-gravy-recipe-1-of-1-5.jpg">
+                 <div class="food-info-background">
+                     <p class="name">Biscuits & Gravy</p>
+                    <p class="price">Price: 16.99$</p>
+                    <p class="ingredients">Ingredients: Biscuit,Benny's Country Gravy,Salt & Pepper</p>
+                 </div>
+             </div>
+
+             <div class="item-background">
+                <img class="food-image" src="https://sugarspunrun.com/wp-content/uploads/2022/09/Easy-sausage-gravy-recipe-1-of-1-5.jpg">
+                 <div class="food-info-background">
+                     <p class="name">Biscuits & Gravy</p>
+                    <p class="price">Price: 16.99$</p>
+                    <p class="ingredients">Ingredients: Biscuit,Benny's Country Gravy,Salt & Pepper</p>
+                 </div>
+             </div>
+
+             <div class="item-background">
+                <img class="food-image" src="https://sugarspunrun.com/wp-content/uploads/2022/09/Easy-sausage-gravy-recipe-1-of-1-5.jpg">
+                 <div class="food-info-background">
+                     <p class="name">Biscuits & Gravy</p>
+                    <p class="price">Price: 16.99$</p>
+                    <p class="ingredients">Ingredients: Biscuit,Benny's Country Gravy,Salt & Pepper</p>
+                 </div>
+             </div>
+
+             <div class="item-background">
+                <img class="food-image" src="https://sugarspunrun.com/wp-content/uploads/2022/09/Easy-sausage-gravy-recipe-1-of-1-5.jpg">
+                 <div class="food-info-background">
+                     <p class="name">Biscuits & Gravy</p>
+                    <p class="price">Price: 16.99$</p>
+                    <p class="ingredients">Ingredients: Biscuit,Benny's Country Gravy,Salt & Pepper</p>
+                 </div>
+             </div>
+
+             <div class="item-background">
+                <img class="food-image" src="https://sugarspunrun.com/wp-content/uploads/2022/09/Easy-sausage-gravy-recipe-1-of-1-5.jpg">
+                 <div class="food-info-background">
+                     <p class="name">Biscuits & Gravy</p>
+                    <p class="price">Price: 16.99$</p>
+                    <p class="ingredients">Ingredients: Biscuit,Benny's Country Gravy,Salt & Pepper</p>
+                 </div>
+             </div>
+
+             <div class="item-background">
+                <img class="food-image" src="https://sugarspunrun.com/wp-content/uploads/2022/09/Easy-sausage-gravy-recipe-1-of-1-5.jpg">
+                 <div class="food-info-background">
+                     <p class="name">Biscuits & Gravy</p>
+                    <p class="price">Price: 16.99$</p>
+                    <p class="ingredients">Ingredients: Biscuit,Benny's Country Gravy,Salt & Pepper</p>
+                 </div>
+             </div>
+
+            </section>
+        </div>
+        -->
+
+        <div class="lunch-menu">
+            <h2>Lunch Menu</h2>
+            <section class="menu-items">
+
+            </section>
+        </div>
+
+        <div class="dinner-menu">
+            <h2>Dinner Menu</h2>
+            <section class="menu-items">
+
+            </section>
+        </div>
+
+        <div class="specials-menu">
+            <h2>Specials Menu</h2>
+            <section class="menu-items">
+
+            </section>
+        </div>
+
+        <div class="customer-cart">
+            <button id="customer-cart-button" class="cart-button">Cart</button>
+        </div>
+        <div id="modal-backdrop" class="hidden"></div>
+        <div id="customer-cart-modal" class="hidden">
+            <div class="modal-dialog">
+
+                <div class="modal-header">
+                    <h3>Your Cart</h3>
+                </div>
+
+                <div class="modal-body">
+
+                    <!-- Will create handlebar file for listed menu items in cart -->
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button id="modal-buy-button" class="modal-button">Buy Items</button>
+                <button id="modal-exit-button" class="modal-button">Exit Cart</button>
+            </div>
+        </div>
+
+    </body>
+</html>
