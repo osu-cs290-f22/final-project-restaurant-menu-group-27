@@ -1,17 +1,59 @@
-<div class="menu-items">
-    {{#each breakfast}}
-        {{> breakfastItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
-    {{/each}}
+<div class="breakfast-menu">
+    <h2>Breakfast Menu</h2>
+    <section class="menu-items">
+        {{#each breakfast}}
+            {{> menuItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
+        {{/each}}
+    </section>
+</div>
 
-    {{#each lunch}}
-        {{> lunchItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
-    {{/each}}
+<div class="lunch-menu">
+    <h2>Lunch Menu</h2>
+    <section class="menu-items">
+        {{#each lunch}}
+           {{> menuItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
+        {{/each}}
+    </section>
+</div>
 
-    {{#each dinner}}
-        {{> dinnerItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
-    {{/each}}
+<div class="dinner-menu">
+    <h2>Dinner Menu</h2>
+    <section class="menu-items">
+        {{#each dinner}}
+            {{> menuItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
+        {{/each}}
+    </section>
+</div>
 
-    {{#each specials}}
-        {{> specialItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
-    {{/each}}
+<div class="specials-menu">
+    <h2>Specials Menu</h2>
+    <section class="menu-items">
+        {{#each specials}}
+           {{> menuItem url=url name=name price=price ingredients=ingredients reviews=reviews}}
+        {{/each}}
+    </section>
+</div>
+
+<div class="customer-cart">
+            <button id="customer-cart-button" class="cart-button">Cart</button>
+</div>
+
+<div id="modal-backdrop" class="hidden"></div>
+<div id="customer-cart-modal" class="hidden">
+    <div class="modal-dialog">
+
+        <div class="modal-header">
+            <h3>Your Cart</h3>
+        </div>
+
+        <div class="modal-body">
+
+                    <!-- Will create handlebar file for listed menu items in cart -->
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button id="modal-buy-button" class="modal-button">Buy Items</button>
+        <button id="modal-exit-button" class="modal-button">Exit Cart</button>
+    </div>
 </div>
