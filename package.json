@@ -1,4 +1,10 @@
 {
+  "scripts": {
+      "start": "node server.js",
+      "build": "handlebars views/partials/modalCart.handlebars -f public/cartTemplate.js",
+      "prestart": "npm run build"
+  },
+  "license": "UNLICENSED",
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^6.0.6",
