@@ -18,7 +18,10 @@ app.use(express.static('public'))
 
 app.get(['/', '/index.html'], function (req, res, next) {       // displays index.html
     res.status(200).render('menuPage', {
-        post: menuData
+        breakfast: menuData.breakfast,
+        lunch: menuData.lunch,
+        dinner: menuData.dinner,
+        specials: menuData.specials 
     })
 })
 
