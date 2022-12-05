@@ -1,225 +1,225 @@
 {
     "breakfast":  [
-        {
-            "name": "Benny's Best Pancakes",
-            "price": "$12.99",
-            "url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F02%2F16%2F21014-Good-old-Fashioned-Pancakes-mfs_001.jpg&imgrefurl=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F21014%2Fgood-old-fashioned-pancakes%2F&tbnid=TQJgPwNL_HTTAM&vet=12ahUKEwjxr6uRz9n7AhWZLDQIHSqED2sQMygAegUIARCTAg..i&docid=iG83bIIl5rfakM&w=1500&h=1000&q=pancakes&ved=2ahUKEwjxr6uRz9n7AhWZLDQIHSqED2sQMygAegUIARCTAg",
-            "ingredients": [
-                "Benny's Pancake Mix",
-                "Butter",
-                "Maple Syrup",
-                "Egg",
-                "Milk"
-            ],
-            "reviews": [
-                "4.5 stars",
-                "5 stars",
-                "5 stars",
-                "4.5 stars"
-            ]
-        },
-        {
-            "name": "Biscuits & Gravy",
-            "price": "$16.99",
-            "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsugarspunrun.com%2Fsausage-gravy%2F&psig=AOvVaw0X7sMwdgg98iZw76oChVyc&ust=1670025427507000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNC999fP2fsCFQAAAAAdAAAAABAD",
-            "ingredients": [
-                "Biscuit",
-                "Benny's Country Gravy",
-                "Salt & Pepper"
-            ],
-            "reviews": [
-                "4 stars",
-                "4.5 stars",
-                "5 stars" 
-            ]
-        },
-        {
-            "name": "Benny's Breakfast",
-            "price": "$24.99",
-            "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2F1007bobfm.com%2Flife%2Feating-a-big-breakfast-may-double-the-calories-you-burn-in-a-day%2F&psig=AOvVaw1sNflszZoeCMDxxUgMNOZh&ust=1670025575915000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPCXs5_Q2fsCFQAAAAAdAAAAABAH",
-            "ingredients": [
-                "Eggs",
-                "Benny's Best Pancakes",
-                "Bacon",
-                "Butter",
-                "Maple Syrup"
-            ],
-            "reviews": [
-                "5 stars", 
-                "5 stars",
-                "5 stars",
-                "4.8 stars"
-            ]
-        }
+      {
+        "name": "Benny's Best Pancakes",
+        "price": "$12.99",
+        "url": "https://www.allrecipes.com/thmb/WqWggh6NwG-r8PoeA3OfW908FUY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21014-Good-old-Fashioned-Pancakes-mfs_001-1fa26bcdedc345f182537d95b6cf92d8.jpg",
+        "ingredients": [
+          "Benny's Pancake Mix",
+          "Butter",
+          "Maple Syrup",
+          "Egg",
+          "Milk"
+        ],
+        "reviews": [
+          "4.5 stars",
+          "5 stars",
+          "5 stars",
+          "4.5 stars"
+        ]
+      },
+      {
+        "name": "Biscuits & Gravy",
+        "price": "$16.99",
+        "url": "https://sugarspunrun.com/wp-content/uploads/2022/09/Easy-sausage-gravy-recipe-1-of-1-5.jpg",
+        "ingredients": [
+          "Biscuit",
+          "Benny's Country Gravy",
+          "Salt & Pepper"
+        ],
+        "reviews": [
+          "4 stars",
+          "4.5 stars",
+          "5 stars"
+        ]
+      },
+      {
+        "name": "Benny's Breakfast",
+        "price": "$24.99",
+        "url": "https://1007bobfm.com/wp-content/uploads/2020/02/shutterstock_245938681-scaled-e1582150338738.jpg",
+        "ingredients": [
+          "Eggs",
+          "Benny's Best Pancakes",
+          "Bacon",
+          "Butter",
+          "Maple Syrup"
+        ],
+        "reviews": [
+          "5 stars",
+          "5 stars",
+          "5 stars",
+          "4.8 stars"
+        ]
+      }
     ],
     "lunch":  [
-        {
-            "name": "Benny's Burger",
-            "price": "$12.99",
-            "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.epicurious.com%2Frecipes%2Ffood%2Fviews%2Fclassic-smashed-cheeseburger-51261810&psig=AOvVaw052dMgwOSP0gcb1jOhiBr9&ust=1670026259173000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKCMpOPS2fsCFQAAAAAdAAAAABAD",
-            "ingredients": [
-                "Whole Wheat Buns",
-                "Hamburger Patty",
-                "Tomato",
-                "American Cheese",
-                "Lettuce",
-                "Pickles",
-                "Benny's Secret Sauce"
-            ],
-            "reviews": [
-                "5 stars", 
-                "5 stars",
-                "5 stars",
-                "5 stars" 
-            ]
-        },
-        {
-            "name": "French Onion Soup",
-            "price": "$15.99",
-            "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fleitesculinaria.com%2F1272%2Frecipes-french-onion-soup.html&psig=AOvVaw1aK4j0dPYQxdIt9kdwK8eZ&ust=1670026383616000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPDPtZ3T2fsCFQAAAAAdAAAAABAD",
-            "ingredients": [
-                "Onions",
-                "Butter",
-                "Olive Oil", 
-                "Salt & Pepper",
-                "Swiss Cheese"
-            ],
-            "reviews": [
-                "4 stars",
-                "5 stars",
-                "4.6 stars"
-            ]
-        },
-        {
-            "name": "Chicken Strips",
-            "price": "$10.99",
-            "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.licious.in%2Fblog%2Frecipe%2Fcrispy-chicken-strips-recipe&psig=AOvVaw3hCFZeOYKjAmD_Hq6CFFp9&ust=1670026512275000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCODXiNrT2fsCFQAAAAAdAAAAABAI",
-            "ingredients": [
-                "Chicken",
-                "Breadcrumbs",
-                "Salt & Pepper",
-                "Benny's Secret Seasoning",
-                "Potato French Fries"
-            ],
-            "reviews": [
-                "4.8 stars",
-                "4.9 stars",
-                "4.5 stars"
-            ]
-        },
-        {
-            "name": "Cuban Sandwich",
-            "price": "$13.99",
-            "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dinneratthezoo.com%2Fcuban-quesadillas%2F&psig=AOvVaw2VuH2OMriBeCJf0EUfAWk5&ust=1670026750914000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMjty83U2fsCFQAAAAAdAAAAABAD",
-            "ingredients": [
-                "Ham",
-                "Panini Bread",
-                "Pickles",
-                "Swiss Cheese",
-                "Dijon Mustard",
-                "Benny's Secret Spread"
-            ],
-            "reviews": [
-                "5 stars", 
-                "4.9 stars",
-                "5 stars" 
-            ]
-        }
+      {
+        "name": "Benny's Burger",
+        "price": "$12.99",
+        "url": "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_1600,c_limit/Smashburger-recipe-120219.jpg",
+        "ingredients": [
+          "Whole Wheat Buns",
+          "Hamburger Patty",
+          "Tomato",
+          "American Cheese",
+          "Lettuce",
+          "Pickles",
+          "Benny's Secret Sauce"
+        ],
+        "reviews": [
+          "5 stars",
+          "5 stars",
+          "5 stars",
+          "5 stars"
+        ]
+      },
+      {
+        "name": "French Onion Soup",
+        "price": "$15.99",
+        "url": "https://leitesculinaria.com/wp-content/uploads/2021/03/french-onion-soup.jpg",
+        "ingredients": [
+          "Onions",
+          "Butter",
+          "Olive Oil",
+          "Salt & Pepper",
+          "Swiss Cheese"
+        ],
+        "reviews": [
+          "4 stars",
+          "5 stars",
+          "4.6 stars"
+        ]
+      },
+      {
+        "name": "Chicken Strips",
+        "price": "$10.99",
+        "url": "https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Strips-750x750.jpg",
+        "ingredients": [
+          "Chicken",
+          "Breadcrumbs",
+          "Salt & Pepper",
+          "Benny's Secret Seasoning",
+          "Potato French Fries"
+        ],
+        "reviews": [
+          "4.8 stars",
+          "4.9 stars",
+          "4.5 stars"
+        ]
+      },
+      {
+        "name": "Cuban Sandwich",
+        "price": "$13.99",
+        "url": "https://www.dinneratthezoo.com/wp-content/uploads/2015/09/cuban-sandwich-14.jpg",
+        "ingredients": [
+          "Ham",
+          "Panini Bread",
+          "Pickles",
+          "Swiss Cheese",
+          "Dijon Mustard",
+          "Benny's Secret Spread"
+        ],
+        "reviews": [
+          "5 stars",
+          "4.9 stars",
+          "5 stars"
+        ]
+      }
     ],
     "dinner": [
-        {
-            "name": "Benny's Steak Dinner",
-            "price": "$29.99",
-            "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eatingwell.com%2Frecipe%2F263675%2Fsteak-dinner%2F&psig=AOvVaw1YzpbUjGUKCuk_qPABy4qp&ust=1670026859376000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNiAkYPV2fsCFQAAAAAdAAAAABAD",
-            "ingredients": [
-                "Top Sirloin",
-                "Brussel Sprouts",
-                "Mushrooms",
-                "Brown Rice",
-                "Salt & Pepper",
-                "Benny's Secret Seasoning"
-            ],
-            "reviews": [
-                "5 stars",
-                "5 stars",
-                "5 stars",
-                "4.9 stars"
-            ]
-        },
-        {
-            "name": "Chicken Strips",
-            "price": "$10.99",
-            "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.licious.in%2Fblog%2Frecipe%2Fcrispy-chicken-strips-recipe&psig=AOvVaw3hCFZeOYKjAmD_Hq6CFFp9&ust=1670026512275000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCODXiNrT2fsCFQAAAAAdAAAAABAI",
-            "ingredients": [
-                "Chicken",
-                "Breadcrumbs",
-                "Salt & Pepper",
-                "Benny's Secret Seasoning",
-                "Potato French Fries"
-            ],
-            "reviews": [
-                "4.8 stars",
-                "4.9 stars",
-                "4.5 stars"
-            ]
-        },
-        {
-            "name": "Prime Rib Dinner",
-            "price": "$35.99",
-            "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftasty.co%2Frecipe%2Fprime-rib-with-garlic-herb-butter&psig=AOvVaw2ihFcF1qt4hAlUI-DRSwaY&ust=1670027051484000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPDLkdvV2fsCFQAAAAAdAAAAABAG",
-            "ingredients": [
-                "Prime Rib Cut",
-                "Mashed Potatoes",
-                "Green Beans",
-                "Salt & Pepper",
-                "Gravy",
-                "Red Pepper Flake",
-                "Benny's Secret Seasoning" 
-            ],
-            "reviews": [
-                "5 stars",
-                "5 stars",
-                "5 stars",
-                "5 stars" 
-            ]
-        }   
+      {
+        "name": "Benny's Steak Dinner",
+        "price": "$29.99",
+        "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2018%2F04%2F03%2F5488100.jpg",
+        "ingredients": [
+          "Top Sirloin",
+          "Brussel Sprouts",
+          "Mushrooms",
+          "Brown Rice",
+          "Salt & Pepper",
+          "Benny's Secret Seasoning"
+        ],
+        "reviews": [
+          "5 stars",
+          "5 stars",
+          "5 stars",
+          "4.9 stars"
+        ]
+      },
+      {
+        "name": "Chicken Strips",
+        "price": "$10.99",
+        "url": "https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Strips-750x750.jpg",
+        "ingredients": [
+          "Chicken",
+          "Breadcrumbs",
+          "Salt & Pepper",
+          "Benny's Secret Seasoning",
+          "Potato French Fries"
+        ],
+        "reviews": [
+          "4.8 stars",
+          "4.9 stars",
+          "4.5 stars"
+        ]
+      },
+      {
+        "name": "Prime Rib Dinner",
+        "price": "$35.99",
+        "url": "https://img.buzzfeed.com/video-api-prod/assets/3cfe5cbbb6f248f89a39cc578138f2ee/BFV15675_PrimeRibWithGarlicHerbButter-ThumbA1080.jpg?resize=1200:*",
+        "ingredients": [
+          "Prime Rib Cut",
+          "Mashed Potatoes",
+          "Green Beans",
+          "Salt & Pepper",
+          "Gravy",
+          "Red Pepper Flake",
+          "Benny's Secret Seasoning"
+        ],
+        "reviews": [
+          "5 stars",
+          "5 stars",
+          "5 stars",
+          "5 stars"
+        ]
+      }   
     ],
     "specials": [
-        {
-            "name": "Duck Legs",
-            "price": "$29.99",
-            "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.epicurious.com%2Frecipes%2Ffood%2Fviews%2Fred-wine-braised-duck-legs-14324&psig=AOvVaw0CxeaSa_Z7n35m9u5dVfUe&ust=1670024791446000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLiJuaXN2fsCFQAAAAAdAAAAABAG",
-            "ingredients": [
-                "Duck",
-                "Salt & Pepper",
-                "Red Wine Vinegar",
-                "Benny's Secret Sauce"
-            ],
-            "reviews": [
-                "5 stars",
-                "5 stars",
-                "4.5 stars",
-                "5 stars"
-            ]
-        },
-        {
-            "name": "Duck Breast",
-            "price": "$49.99",
-            "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.washingtonpost.com%2Frecipes%2Fslow-roasted-duck-breast%2F12423%2F&psig=AOvVaw2J37dlxpDaVxKvM5h6vlXN&ust=1670025063361000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNCoi63O2fsCFQAAAAAdAAAAABAD",
-            "ingredients": [
-                "Duck",
-                "Salt & Pepper",
-                "Red Wine Vinegar",
-                "Benny's Secret Sauce",
-                "Parsely"
-            ],
-            "reviews": [
-                "5 stars",
-                "5 stars",
-                "5 stars",
-                "5 stars",
-                "5 stars"
-            ]
-        }
+      {
+        "name": "Duck Legs",
+        "price": "$29.99",
+        "url": "https://assets.epicurious.com/photos/57ea9686666139be196fc558/1:1/w_1600,c_limit/red-wine-braised-duck-legs.jpg",
+        "ingredients": [
+          "Duck",
+          "Salt & Pepper",
+          "Red Wine Vinegar",
+          "Benny's Secret Sauce"
+        ],
+        "reviews": [
+          "5 stars",
+          "5 stars",
+          "4.5 stars",
+          "5 stars"
+        ]
+      },
+      {
+        "name": "Duck Breast",
+        "price": "$49.99",
+        "url": "https://www.washingtonpost.com/rf/image_982w/2010-2019/WashingtonPost/2015/05/14/Others/Images/2015-05-13/FD-databaserecMay200061431569832.jpg",
+        "ingredients": [
+          "Duck",
+          "Salt & Pepper",
+          "Red Wine Vinegar",
+          "Benny's Secret Sauce",
+          "Parsely"
+        ],
+        "reviews": [
+          "5 stars",
+          "5 stars",
+          "5 stars",
+          "5 stars",
+          "5 stars"
+        ]
+      }
     ]
 }
