@@ -10,6 +10,7 @@ var lunchButton = document.getElementById("lunch-menu-button")
 var dinnerButton = document.getElementById("dinner-menu-button")
 var specialButton = document.getElementById("specials-menu-button")
 var addButtons = document.querySelectorAll("#addto-cart-button")
+var clearButton = document.getElementById("modal-clear-button")
 
 //display modal to user
 function customerCartButtonHandler(event) {
@@ -28,9 +29,11 @@ function buyButtonHandler(event) {
     document.getElementById("modal-backdrop").style.display = "none"
 	document.getElementById("customer-cart-modal").style.display = "none"
 
-    //clear posts
-
     alert("Please remember to pay upon delivery!")
+
+    var cartItems = document.querySelectorAll('.cart-item')
+    for (var x = 0; x < cartItems.length; x++)
+        cartItems[x].remove()
 
     event.stopPropagation()
 }
@@ -49,7 +52,7 @@ function exitButtonHandler(event) {
 function breakfastButtonHandler(event) {
     console.log("The breakfast button was clicked")
 
-    //show breakfast items
+    window.scroll(0, 375)
 
     event.stopPropagation()
 }
@@ -58,7 +61,7 @@ function breakfastButtonHandler(event) {
 function lunchButtonHandler(event) {
     console.log("The lunch button was clicked")
 
-    //show lunch items
+    window.scroll(0, 930)
 
     event.stopPropagation()
 }
@@ -67,7 +70,7 @@ function lunchButtonHandler(event) {
 function dinnerButtonHandler(event) {
     console.log("The dinner button was clicked")
 
-    //show dinner items
+    window.scroll(0, 1500)
 
     event.stopPropagation()
 }
@@ -76,7 +79,7 @@ function dinnerButtonHandler(event) {
 function specialButtonHandler(event) {
     console.log("The specials button was clicked")
 
-    //show special items
+    window.scroll(0, 2200)
 
     event.stopPropagation()
 }
@@ -97,6 +100,17 @@ function addButtonHandler(event) {
     event.stopPropagation()
 }
 
+//this function will clear the items in the cart
+function clearButtonHandler(event) {
+    console.log("The clear cart button was clicked")
+
+    var cartItems = document.querySelectorAll('.cart-item')
+    for (var x = 0; x < cartItems.length; x++)
+        cartItems[x].remove()
+
+    event.stopPropagation()
+}
+
 cartButton.addEventListener("click", customerCartButtonHandler)
 buyButton.addEventListener("click", buyButtonHandler)
 exitButton.addEventListener("click", exitButtonHandler)
@@ -104,6 +118,7 @@ breakfastButton.addEventListener("click", breakfastButtonHandler)
 lunchButton.addEventListener("click", lunchButtonHandler)
 dinnerButton.addEventListener("click", dinnerButtonHandler)
 specialButton.addEventListener("click", specialButtonHandler)
+clearButton.addEventListener("click", clearButtonHandler)
 
 for (var x = 0; x < addButtons.length; x++) 
     addButtons[x].addEventListener("click", addButtonHandler)
@@ -120,7 +135,6 @@ function addToCart(name, url, price, ingredients, reviews) {
         reviews: reviews
     })
 
-    console.log("The new item", newItem)
     var itemContainer = document.querySelector(".cart-item")
     itemContainer.insertAdjacentHTML("beforeend", newItem)
 }
