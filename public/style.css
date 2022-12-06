@@ -123,6 +123,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     background-color: #f9d2b2;
+    justify-content: center;
 }
 
 .lunch-menu h2{
@@ -207,8 +208,8 @@ body{
 
 .modal-footer {
     position: relative;
-    left: 550px;
-    bottom: 150px;
+    left: 780px;
+    bottom: 40px;
 }
 
 .error-container {
@@ -226,4 +227,48 @@ body{
 .error-container h3 {
     font-size: 32px;
     margin: 0;
+}
+
+.modal-button{
+    position: relative;
+    left: 0px;
+}
+
+.cart-item{
+    position: relative;
+    left: 170px;
+}
+
+.remove-button{
+    position: relative;
+    left: 80px;
+    width: 100px;    
+    height: 30px;
+    background-color: black;
+    border-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.clear-button{
+    padding: 16px 42px;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+    text-decoration: none;
+    line-height: 1.25;
+    background-color: white;
+    border-color: #333;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.clear-button:hover{
+    background: black;
+    color: white;
+    border-radius: 5px;
 }
