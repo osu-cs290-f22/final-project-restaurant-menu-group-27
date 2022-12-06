@@ -120,6 +120,7 @@ function addToCart(name, url, price, ingredients, reviews) {
         reviews: reviews
     })
 
+    console.log("The new item", newItem)
     var itemContainer = document.querySelector(".cart-item")
     itemContainer.insertAdjacentHTML("beforeend", newItem)
 }
