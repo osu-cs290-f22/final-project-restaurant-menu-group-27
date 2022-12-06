@@ -8,7 +8,7 @@ templates['modalCart'] = template({"compiler":[8,">= 4.3.0"],"main":function(con
         return undefined
     };
 
-  return "<div class=\"cart-item-background\">\r\n    <img class=\"food-image\" src="
+  return "<div class=\"item-background\">\r\n    <img class=\"food-image\" src="
     + alias4(((helper = (helper = lookupProperty(helpers,"url") || (depth0 != null ? lookupProperty(depth0,"url") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url","hash":{},"data":data,"loc":{"start":{"line":2,"column":32},"end":{"line":2,"column":39}}}) : helper)))
     + " alt="
     + alias4(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":2,"column":44},"end":{"line":2,"column":52}}}) : helper)))
