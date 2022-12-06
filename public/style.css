@@ -227,3 +227,8 @@ body{
     font-size: 32px;
     margin: 0;
 }
+
+.modal-button{
+    position: relative;
+    left: 340px;
+}
