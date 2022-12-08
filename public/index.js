@@ -52,7 +52,7 @@ function exitButtonHandler(event) {
 function breakfastButtonHandler(event) {
     console.log("The breakfast button was clicked")
 
-    window.scroll(0, 375)
+    window.scroll(0, 465)
 
     event.stopPropagation()
 }
@@ -61,7 +61,7 @@ function breakfastButtonHandler(event) {
 function lunchButtonHandler(event) {
     console.log("The lunch button was clicked")
 
-    window.scroll(0, 930)
+    window.scroll(0, 1060)
 
     event.stopPropagation()
 }
@@ -70,9 +70,9 @@ function lunchButtonHandler(event) {
 function dinnerButtonHandler(event) {
     console.log("The dinner button was clicked")
 
-    window.scroll(0, 1500)
+    window.scroll(0, 1650)
 
-    event.stopPropagation()
+    event.stopPropagaon()
 }
 
 //show special items
