@@ -20,6 +20,6 @@ templates['modalCart'] = template({"compiler":[8,">= 4.3.0"],"main":function(con
     + alias4(((helper = (helper = lookupProperty(helpers,"ingredients") || (depth0 != null ? lookupProperty(depth0,"ingredients") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"ingredients","hash":{},"data":data,"loc":{"start":{"line":6,"column":31},"end":{"line":6,"column":46}}}) : helper)))
     + "</p>\r\n        <p class=\"reviews\">"
     + alias4(((helper = (helper = lookupProperty(helpers,"reviews") || (depth0 != null ? lookupProperty(depth0,"reviews") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"reviews","hash":{},"data":data,"loc":{"start":{"line":7,"column":27},"end":{"line":7,"column":38}}}) : helper)))
-    + "</p>\r\n    </div>\r\n    <button id=\"remove-cart-button\" class=\"remove-button\">Remove Item</button>\r\n</div>";
+    + "</p>\r\n    </div>\r\n</div>";
 },"useData":true});
 })();
